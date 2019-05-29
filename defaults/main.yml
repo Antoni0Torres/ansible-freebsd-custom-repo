@@ -1,1 +1,2 @@
+# change to match your url or use ansible variables for group/hosts
 custompkgurl: http://localhost/live_packages

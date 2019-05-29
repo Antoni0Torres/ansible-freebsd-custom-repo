@@ -2,6 +2,11 @@
 ## Ansible Role: Add custom repo for freebsd
 ####################################################
 
-Add custom repo for packages on freebsd
+Add custom repo for packages on freebsd.
+
+Variables:
+
+custompkgurl: change to match your url or use ansible variables for group/hosts
+
 
 NOTE: Tested with freebsd 12.0. This is not a general role valid for all use case, it's specific for my needs. You can add/remove and modify to your needs.

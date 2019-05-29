@@ -1,7 +1,7 @@
 galaxy_info:
   author: Antonio Torres
   company: Antonio Torres
-  description: FreeBSD Jail host base install
+  description: FreeBSD add custom repository
   license: BSD
   min_ansible_version: 2.4.0
   platforms:
