@@ -1,0 +1,11 @@
+- name: create custom repo directory
+  file: path={{item.p}} mode={{item.m}} state=directory
+  with_items:
+    - { p: '/usr/local/etc/pkg', m: '0700'}
+    - { p: '/usr/local/etc/pkg/repos', m: '0700'}
+
+- name: copy repo conf
+  template:
+    src: mylivepackages.conf
+    dest: /usr/local/etc/pkg/repos/
+    mode: 0600
